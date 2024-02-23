@@ -1,0 +1,47 @@
+.cc {
+  background-image: linear-gradient(
+    to right,
+    rgb(27, 166, 150),
+    rgb(207, 233, 215)
+  );
+  background-attachment: fixed;
+  width: 300px;
+  height: 480px;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: rgb(7, 22, 35);
+
+}
+
+p {
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.rs {
+  color: red;
+  font-size: 35px;
+}
+.button {
+  display: flex;
+  justify-content: space-evenly;
+}
+.rss {
+  font-size: 40px;
+  font-weight: bold;
+  color: green;
+}
+.result {
+  background-color: lightgreen;
+  border-radius: 30px;
+}
+
+@media screen and (max-width:400px) {
+.dis{
+  display: none;
+}
+.aa{
+  margin-left: -25%;
+
+}
+}
